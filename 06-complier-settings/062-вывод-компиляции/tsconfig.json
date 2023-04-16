@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/", // директория для скомпилированных файлов. Все ts файлы согласно структуре расположения попадут в эту папку
+    "removeComments": true, // удалять комментарии при компиляции
+    "sourceMap": true,
+    "declaration": true, // генерировать декларации
+    "declarationDir": "./types/" // путь для declaration
+  },
+  "extends": "../../tsconfig.json"
+  /*
+  "files": ["app.ts"], // нельзя использовать паттерны
+  */
+}
