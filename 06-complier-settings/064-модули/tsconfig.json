@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    // тип модулей
+//    "module": "CommonJS"
+//    "module": "ES6"
+    "rootDir": "./src",
+    "resolveJsonModule": true
+  }
+}
