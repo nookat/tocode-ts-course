@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+//  "target": "es2016", // по умолчанию используется target, но в lib можно переопределить
+    "lib": [
+      "DOM",
+      "ES5"
+    ]
+  }
+}
